@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #010101;
+  
+}
+
+
+
+
+header {
+    background-color: #030828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 24px;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    background-color: #0e101f;
+}
+
+.servicos {
+    border:1px solid;
+    margin: 3rem  3rem 2rem 2rem;
+    padding: 4rem;
+}
+
+.agendamento {
+    border:1px solid;
+    margin: 3rem  3rem 2rem 2rem;
+    padding: 4rem;
+}
